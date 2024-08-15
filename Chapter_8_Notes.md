@@ -189,3 +189,47 @@ Requiring students to take their final exam or midterm in a testing center where
    - **ZPD Connection**: By placing students in a controlled environment with integrity specialists, you ensure that they are working within their current level of development, without external aids or AI assistance. This setting allows you to accurately assess their true understanding and capabilities. The testing center acts as a form of scaffolding, providing a secure and standardized environment that supports students in demonstrating their knowledge independently, which is essential for operating effectively within their ZPD.
 
 This approach not only safeguards the integrity of the assessment but also ensures that students are being evaluated on their actual abilities, free from external influences. It reinforces the importance of independent learning and mastery of the material, aligning well with the principles of the ZPD.
+
+Here’s a refined list of strategies that emphasize academic integrity and are harder to circumvent using AI, including the four strategies you mentioned (12, 8, 6, 3), along with additional robust approaches:
+
+### 1. **Use of Anti-Plagiarism Software**
+   - **Plagiarism Detection Tools**: Utilize tools like Turnitin or Grammarly’s plagiarism checker to screen for copied content, ensuring originality.
+   - **AI Content Detection**: Employ AI detection tools to identify likely AI-generated content, ensuring that submissions are student-created.
+
+### 2. **Portfolio-Based Assessments**
+   - **Learning Portfolios**: Have students compile a portfolio of work throughout the course, focusing on drafts, revisions, and reflective commentary. This approach emphasizes the process and personal growth, making it difficult to rely on AI.
+   - **Process-Based Grading**: Grade based on the process, including the evolution of work over time, encouraging continuous engagement and authenticity.
+
+### 3. **Reflective and Meta-Cognitive Assignments**
+   - **Reflective Essays**: Require students to write reflective essays on their learning process, challenges, and how they overcame them. This introspective approach reduces the potential for AI-generated content.
+   - **Learning Journals**: Ask students to maintain a learning journal, documenting their thoughts, progress, and challenges. This ongoing reflection fosters genuine engagement.
+
+### 4. **Process Documentation**
+   - **Research Logs**: Require students to keep a detailed research log, documenting sources, strategies, and decisions. This process helps ensure the originality of their work.
+   - **Annotated Bibliographies**: Have students submit annotated bibliographies, explaining how each source was used, which demonstrates their engagement with the material.
+
+### 5. **Peer and Self-Assessment**
+   - **Peer Review Assignments**: Incorporate peer review, where students critique each other’s work. This interaction encourages originality and reduces the likelihood of dishonest practices.
+   - **Self-Assessment Reports**: Require students to submit self-assessments that explain their learning and contributions, adding a layer of accountability.
+
+### 6. **Personalized Assignments**
+   - **Unique Prompts for Each Student**: Create personalized assignment prompts based on individual student interests, previous work, or specific contexts. This makes it difficult to use AI-generated responses or to copy from others.
+   - **Student-Created Questions**: Allow students to develop their own questions or problems to solve, which they then answer, fostering deeper engagement and ownership of their work.
+
+### 7. **Multi-Modal Assignments**
+   - **Incorporate Multiple Media**: Require assignments that include a mix of text, visuals, audio, or video components, making it harder for AI tools to handle all formats effectively.
+   - **Creative Projects**: Assign creative projects like videos, podcasts, or artwork that demonstrate understanding, emphasizing personal expression.
+
+### 8. **Oral Examinations and Presentations**
+   - **Oral Defense of Work**: After completing an assignment, have students orally defend their work, answering questions and explaining their decisions in real-time.
+   - **Randomized Oral Follow-Ups**: Conduct random oral follow-ups after submissions, where students must discuss and justify their work, ensuring it reflects their own understanding.
+
+### 9. **Handwritten Assignments**
+   - **Handwritten Essays and Solutions**: Require students to submit handwritten essays or problem sets, making it difficult to use AI tools for generation.
+   - **Handwritten Code and Algorithms**: For coding or mathematical assignments, have students write out their code or solutions by hand, reinforcing understanding and reducing AI influence.
+
+### 10. **Proctored Exams and Use of Respondus**
+   - **Respondus LockDown Browser**: Implement tools like Respondus to restrict students' ability to navigate away from the exam screen during online tests.
+   - **In-Person or On-Camera Exams**: Require students to take exams in a proctored setting, either on-campus or via webcam, ensuring they complete the assessment independently.
+
+These strategies focus on fostering genuine student engagement, ensuring that the work submitted reflects authentic learning and understanding. By incorporating these methods, you can help safeguard academic integrity and reduce the influence of AI in assignments and assessments.
