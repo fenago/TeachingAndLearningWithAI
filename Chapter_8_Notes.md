@@ -175,3 +175,17 @@ For foundational subjects like math, where the potential for AI tools to quickly
    - **Peer Review of Solutions**: Implement a peer review system where students must critique and provide feedback on each other's solutions. This process encourages critical thinking and helps students see different approaches to the same problem.
 
 These strategies aim to deepen students' understanding of mathematical concepts, emphasize the process over the final answer, and create a learning environment where AI is less effective as a shortcut. By focusing on conceptual understanding, application, and communication, you can ensure that assessments truly reflect students' mathematical abilities.
+
+Your strategy for process-driven computer assignments is an excellent way to ensure authenticity. By requiring students to submit both the computer file and screenshots of their work, you can effectively validate that the work is genuinely their own. Here's how this approach connects to the Zone of Proximal Development (ZPD):
+
+### **Process-Driven Computer Assignments with Validation**
+   - **ZPD Connection**: Requiring both the computer file and supporting screenshots ensures that students engage deeply with the process, reinforcing the skills they have developed. This method encourages students to work within their ZPD by focusing on the steps taken to reach the final product, rather than just the output. The validation of desktop details, time stamps, and logged-in user information adds a layer of accountability, ensuring that students are truly operating within their current capabilities and receiving appropriate support when needed.
+
+This approach not only prevents academic dishonesty but also helps you assess whether students are genuinely understanding the material and applying it correctly. It aligns well with the principles of the ZPD by emphasizing the importance of the learning process and ensuring that students are being challenged and supported appropriately.
+
+Requiring students to take their final exam or midterm in a testing center where specialists protect the integrity of assignments is another strong strategy. Here’s how this approach connects to the Zone of Proximal Development (ZPD):
+
+### **Testing Center Exams with Integrity Specialists**
+   - **ZPD Connection**: By placing students in a controlled environment with integrity specialists, you ensure that they are working within their current level of development, without external aids or AI assistance. This setting allows you to accurately assess their true understanding and capabilities. The testing center acts as a form of scaffolding, providing a secure and standardized environment that supports students in demonstrating their knowledge independently, which is essential for operating effectively within their ZPD.
+
+This approach not only safeguards the integrity of the assessment but also ensures that students are being evaluated on their actual abilities, free from external influences. It reinforces the importance of independent learning and mastery of the material, aligning well with the principles of the ZPD.
