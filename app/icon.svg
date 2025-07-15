@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="4" fill="#6366F1"/>
+  <!-- Book spine -->
+  <path d="M8 6C8 4.89543 8.89543 4 10 4H22C23.1046 4 24 4.89543 24 6V26C24 27.1046 23.1046 28 22 28H10C8.89543 28 8 27.1046 8 26V6Z" fill="#8B5CF6"/>
+  <!-- Book pages -->
+  <path d="M10 5H22V27H10V5Z" fill="#F8FAFC"/>
+  <!-- Brain/wave pattern representing "productive struggle" -->
+  <path d="M12 13C14 11 18 15 20 13M12 17C14 15 18 19 20 17M12 21C14 19 18 23 20 21" stroke="#6366F1" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- AI symbol -->
+  <circle cx="16" cy="9" r="2" fill="#6366F1"/>
+</svg>
