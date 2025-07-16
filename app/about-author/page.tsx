@@ -11,12 +11,12 @@ import { renderSchemaTags } from '@/libs/seo';
 const drLeeSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://learningscience.io/#person-ernesto-lee",
+  "@id": "https://learningscience.ai/#person-ernesto-lee",
   name: "Dr. Ernesto Lee",
   jobTitle: "Educational AI Researcher and Author",
   description: "Leading expert in productive struggle methodology and AI-enhanced education. Author of research-based approaches to teaching and learning with artificial intelligence.",
-  url: "https://learningscience.io/about-author",
-  image: "https://learningscience.io/images/dr-ernesto-lee.jpg",
+  url: "https://learningscience.ai/about-author",
+  image: "https://learningscience.ai/images/dr-ernesto-lee.jpg",
   sameAs: [
     "https://twitter.com/dr_ernesto_lee",
     "https://linkedin.com/in/ernesto-lee-phd",
@@ -24,8 +24,8 @@ const drLeeSchema = {
   ],
   worksFor: {
     "@type": "EducationalOrganization",
-    name: "LearningScience.io",
-    url: "https://learningscience.io"
+    name: "LearningScience.ai",
+    url: "https://learningscience.ai"
   },
   alumniOf: [
     {
@@ -46,7 +46,7 @@ const drLeeSchema = {
     {
       "@type": "Book",
       name: "Productive Struggle: A Research-Based Approach to Teaching and Learning with Artificial Intelligence",
-      publisher: "LearningScience.io",
+      publisher: "LearningScience.ai",
       genre: "Educational Technology"
     }
   ],

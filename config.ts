@@ -3,12 +3,12 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "LearningScience.io",
+  appName: "LearningScience.ai",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
     "Transform your teaching with AI that enhances learning through productive struggle. Research-based approaches for K-12 and college educators to harness AI's power while preserving meaningful cognitive effort.",
   // REQUIRED (no https://, not trailing slash at the end, just the naked domain)
-  domainName: "learningscience.io",
+  domainName: "learningscience.ai",
   // SEO Keywords for educational AI focus
   keywords: [
     "AI in education",
@@ -85,9 +85,9 @@ const config = {
   },
   resend: {
     // REQUIRED — Email 'From' field to be used when sending magic login links
-    fromNoReply: `LearningScience.io <onboarding@resend.dev>`,
+    fromNoReply: `LearningScience.io <noreply@learningscience.io>`,
     // REQUIRED — Email 'From' field to be used when sending other emails, like abandoned carts, updates etc..
-    fromAdmin: `Dr. Ernesto Lee at LearningScience.io <onboarding@resend.dev>`,
+    fromAdmin: `Dr. Ernesto Lee at LearningScience.io <admin@learningscience.io>`,
     // Email shown to customer if they need support. Leave empty if not needed => if empty, set up Crisp above, otherwise you won't be able to offer customer support."
     supportEmail: "support@learningscience.io",
   },

@@ -101,8 +101,8 @@ export const renderSchemaTags = (customSchema?: any) => {
           url: `https://${config.domainName}/about-author`
         },
         sameAs: [
-          "https://twitter.com/learningscience_io",
-          "https://linkedin.com/company/learningscience-io"
+          "https://twitter.com/learningscience_ai",
+          "https://linkedin.com/company/learningscience-ai"
         ],
         hasOfferCatalog: {
           "@type": "OfferCatalog",
@@ -118,7 +118,7 @@ export const renderSchemaTags = (customSchema?: any) => {
               },
               publisher: {
                 "@type": "Organization",
-                name: "LearningScience.io"
+                name: "LearningScience.ai"
               },
               bookFormat: "https://schema.org/EBook",
               genre: "Educational Technology",
@@ -131,7 +131,7 @@ export const renderSchemaTags = (customSchema?: any) => {
                 availability: "https://schema.org/InStock",
                 seller: {
                   "@type": "Organization",
-                  name: "LearningScience.io"
+                  name: "LearningScience.ai"
                 }
               }
             }

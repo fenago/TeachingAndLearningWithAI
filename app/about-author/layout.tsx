@@ -2,7 +2,7 @@ import { getSEOTags } from '@/libs/seo';
 
 // Enhanced SEO metadata for Dr. Ernesto Lee's About page
 export const metadata = getSEOTags({
-  title: "About Dr. Ernesto Lee | Educational AI Researcher | LearningScience.io",
+  title: "About Dr. Ernesto Lee | Educational AI Researcher | LearningScience.ai",
   description: "Meet Dr. Ernesto Lee, leading expert in productive struggle methodology and AI-enhanced education. Stanford-educated researcher, author, and pioneer in research-based AI teaching approaches for K-12 and college educators.",
   canonicalUrlRelative: "/about-author",
   keywords: [

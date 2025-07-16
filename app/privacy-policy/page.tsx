@@ -27,9 +27,9 @@ import config from "@/config";
 
 export const metadata = getSEOTags({
   title: `Privacy Policy | ${config.appName} - Educational AI Platform`,
-  description: "Privacy policy for LearningScience.io - Learn how we protect your data while providing AI-enhanced educational resources and productive struggle methodology.",
+  description: "Privacy policy for LearningScience.ai - Learn how we protect your data while providing AI-enhanced educational resources and productive struggle methodology.",
   canonicalUrlRelative: "/privacy-policy",
-  keywords: ["privacy policy", "data protection", "educational AI privacy", "LearningScience.io privacy"]
+  keywords: ["privacy policy", "data protection", "educational AI privacy", "LearningScience.ai privacy"]
 });
 
 const PrivacyPolicy = () => {

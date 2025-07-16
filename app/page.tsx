@@ -9,9 +9,9 @@ import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import CustomFooter from "@/components/CustomFooter";
 
-// Enhanced SEO metadata for LearningScience.io homepage
+// Enhanced SEO metadata for LearningScience.ai homepage
 export const metadata = getSEOTags({
-  title: "Transform Teaching with AI | LearningScience.io",
+  title: "Transform Teaching with AI | LearningScience.ai",
   description: "Discover productive struggle methodology - the research-based approach that helps K-12 and college educators harness AI's power while preserving meaningful learning. Transform your teaching today.",
   canonicalUrlRelative: "/",
   keywords: [

@@ -27,9 +27,9 @@ import config from "@/config";
 
 export const metadata = getSEOTags({
   title: `Terms of Service | ${config.appName} - Educational AI Platform`,
-  description: "Terms of service for LearningScience.io - Understanding your rights and responsibilities when using our AI-enhanced educational resources and productive struggle methodology.",
+  description: "Terms of service for LearningScience.ai - Understanding your rights and responsibilities when using our AI-enhanced educational resources and productive struggle methodology.",
   canonicalUrlRelative: "/tos",
-  keywords: ["terms of service", "user agreement", "educational AI terms", "LearningScience.io terms"]
+  keywords: ["terms of service", "user agreement", "educational AI terms", "LearningScience.ai terms"]
 });
 
 const TOS = () => {
