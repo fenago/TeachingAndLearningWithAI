@@ -85,11 +85,11 @@ const config = {
   },
   resend: {
     // REQUIRED — Email 'From' field to be used when sending magic login links
-    fromNoReply: `LearningScience.ai <onboarding@resend.dev>`,
+    fromNoReply: `LearningScience.io <onboarding@resend.dev>`,
     // REQUIRED — Email 'From' field to be used when sending other emails, like abandoned carts, updates etc..
-    fromAdmin: `Dr. Ernesto Lee at LearningScience.ai <onboarding@resend.dev>`,
+    fromAdmin: `Dr. Ernesto Lee at LearningScience.io <onboarding@resend.dev>`,
     // Email shown to customer if they need support. Leave empty if not needed => if empty, set up Crisp above, otherwise you won't be able to offer customer support."
-    supportEmail: "support@learningscience.ai",
+    supportEmail: "support@learningscience.io",
   },
   colors: {
     // REQUIRED — The DaisyUI theme to use (added to the main layout.js). Leave blank for default (light & dark mode). If you use any theme other than light/dark, you need to add it in config.tailwind.js in daisyui.themes.
