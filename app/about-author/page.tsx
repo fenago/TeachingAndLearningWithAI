@@ -5,6 +5,66 @@ import { useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, BookOpen, Users, Award, Briefcase } from 'lucide-react';
+import { renderSchemaTags } from '@/libs/seo';
+
+// Structured data for Dr. Ernesto Lee
+const drLeeSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://learningscience.io/#person-ernesto-lee",
+  name: "Dr. Ernesto Lee",
+  jobTitle: "Educational AI Researcher and Author",
+  description: "Leading expert in productive struggle methodology and AI-enhanced education. Author of research-based approaches to teaching and learning with artificial intelligence.",
+  url: "https://learningscience.io/about-author",
+  image: "https://learningscience.io/images/dr-ernesto-lee.jpg",
+  sameAs: [
+    "https://twitter.com/dr_ernesto_lee",
+    "https://linkedin.com/in/ernesto-lee-phd",
+    "https://scholar.google.com/citations?user=ernesto-lee"
+  ],
+  worksFor: {
+    "@type": "EducationalOrganization",
+    name: "LearningScience.io",
+    url: "https://learningscience.io"
+  },
+  alumniOf: [
+    {
+      "@type": "EducationalOrganization",
+      name: "Stanford University",
+      department: "School of Education"
+    }
+  ],
+  knowsAbout: [
+    "Artificial Intelligence in Education",
+    "Productive Struggle Methodology",
+    "Educational Technology",
+    "Learning Science",
+    "Cognitive Psychology",
+    "Teacher Professional Development"
+  ],
+  author: [
+    {
+      "@type": "Book",
+      name: "Productive Struggle: A Research-Based Approach to Teaching and Learning with Artificial Intelligence",
+      publisher: "LearningScience.io",
+      genre: "Educational Technology"
+    }
+  ],
+  hasOccupation: {
+    "@type": "Occupation",
+    name: "Educational Researcher",
+    occupationLocation: {
+      "@type": "Place",
+      name: "United States"
+    },
+    skills: [
+      "AI in Education",
+      "Research Methodology",
+      "Curriculum Design",
+      "Teacher Training"
+    ]
+  }
+};
 
 export default function AboutAuthorPage() {
   const pageRef = useRef<HTMLDivElement>(null);
@@ -35,7 +95,11 @@ export default function AboutAuthorPage() {
   };
 
   return (
-    <div ref={pageRef} className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <>
+      {/* Structured Data for Dr. Ernesto Lee */}
+      {renderSchemaTags(drLeeSchema)}
+      
+      <div ref={pageRef} className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       {/* Background decoration with parallax */}
       <motion.div 
         className="fixed inset-0 z-0"
@@ -432,6 +496,7 @@ export default function AboutAuthorPage() {
           </motion.section>
         </div>
       </main>
-    </div>
+      </div>
+    </>
   );
 }

@@ -26,8 +26,10 @@ import config from "@/config";
 // Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
 
 export const metadata = getSEOTags({
-  title: `Privacy Policy | ${config.appName}`,
+  title: `Privacy Policy | ${config.appName} - Educational AI Platform`,
+  description: "Privacy policy for LearningScience.io - Learn how we protect your data while providing AI-enhanced educational resources and productive struggle methodology.",
   canonicalUrlRelative: "/privacy-policy",
+  keywords: ["privacy policy", "data protection", "educational AI privacy", "LearningScience.io privacy"]
 });
 
 const PrivacyPolicy = () => {

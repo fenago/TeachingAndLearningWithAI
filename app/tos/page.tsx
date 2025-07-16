@@ -26,8 +26,10 @@ import config from "@/config";
 // Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
 
 export const metadata = getSEOTags({
-  title: `Terms and Conditions | ${config.appName}`,
+  title: `Terms of Service | ${config.appName} - Educational AI Platform`,
+  description: "Terms of service for LearningScience.io - Understanding your rights and responsibilities when using our AI-enhanced educational resources and productive struggle methodology.",
   canonicalUrlRelative: "/tos",
+  keywords: ["terms of service", "user agreement", "educational AI terms", "LearningScience.io terms"]
 });
 
 const TOS = () => {

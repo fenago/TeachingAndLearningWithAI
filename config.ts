@@ -3,12 +3,24 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "The Art of Productive Struggle",
+  appName: "LearningScience.io",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "Learn how to harness AI in education while preserving the cognitive effort that makes learning meaningful.",
+    "Transform your teaching with AI that enhances learning through productive struggle. Research-based approaches for K-12 and college educators to harness AI's power while preserving meaningful cognitive effort.",
   // REQUIRED (no https://, not trailing slash at the end, just the naked domain)
-  domainName: "fenago.com",
+  domainName: "learningscience.io",
+  // SEO Keywords for educational AI focus
+  keywords: [
+    "AI in education",
+    "productive struggle",
+    "teaching with AI", 
+    "educational technology",
+    "AI tutoring",
+    "EdTech research",
+    "K-12 AI tools",
+    "college teaching AI",
+    "research-based education"
+  ],
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (resend.supportEmail) otherwise customer support won't work.
     id: "",
@@ -73,11 +85,11 @@ const config = {
   },
   resend: {
     // REQUIRED — Email 'From' field to be used when sending magic login links
-    fromNoReply: `FeNAgO <noreply@resend.fenago.com>`,
+    fromNoReply: `LearningScience.ai <onboarding@resend.dev>`,
     // REQUIRED — Email 'From' field to be used when sending other emails, like abandoned carts, updates etc..
-    fromAdmin: `Dr Lee at FeNAgO <drlee@resend.fenago.com>`,
+    fromAdmin: `Dr. Ernesto Lee at LearningScience.ai <onboarding@resend.dev>`,
     // Email shown to customer if they need support. Leave empty if not needed => if empty, set up Crisp above, otherwise you won't be able to offer customer support."
-    supportEmail: "socrates.73@gmail.com",
+    supportEmail: "support@learningscience.ai",
   },
   colors: {
     // REQUIRED — The DaisyUI theme to use (added to the main layout.js). Leave blank for default (light & dark mode). If you use any theme other than light/dark, you need to add it in config.tailwind.js in daisyui.themes.

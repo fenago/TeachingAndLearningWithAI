@@ -5,10 +5,20 @@ import config from "@/config";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
-  title: `${config.appName} Blog`,
+  title: `${config.appName} Blog | AI Education Insights & Research`,
   description:
-    "Learn how to ship your startup in days, not weeks",
+    "Discover research-based insights on AI in education, productive struggle methodology, and practical teaching strategies. Expert guidance for K-12 and college educators embracing AI tools.",
   canonicalUrlRelative: "/blog",
+  keywords: [
+    "AI education blog",
+    "productive struggle research",
+    "teaching with AI",
+    "educational technology insights",
+    "AI tutoring strategies",
+    "K-12 AI tools",
+    "college teaching AI",
+    "Dr. Ernesto Lee research"
+  ]
 });
 
 export default async function Blog() {
@@ -25,8 +35,8 @@ export default async function Blog() {
           The {config.appName} Blog
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-          Learn how to ship your startup in days, not weeks. And get the latest
-          updates about the boilerplate
+          Discover research-based insights on AI in education, productive struggle methodology, 
+          and practical teaching strategies from leading experts in educational technology.
         </p>
       </section>
 

@@ -75,37 +75,97 @@ export const getSEOTags = ({
 // I recommend adding the one below to your /page.js for software apps: It tells Google that your AppName is a SoftwareApplication, and it has a rating of 4.8/5 from 12 reviews.
 // Fill in the fields with your own data.
 // See https://shipfa.st/docs/features/seo
-export const renderSchemaTags = () => {
+export const renderSchemaTags = (customSchema?: any) => {
+  // Default schema for LearningScience.ai as Educational Organization
+  const defaultSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": `https://${config.domainName}/#organization`,
+        name: config.appName,
+        description: config.appDescription,
+        url: `https://${config.domainName}/`,
+        logo: {
+          "@type": "ImageObject",
+          url: `https://${config.domainName}/icon.png`,
+          width: 512,
+          height: 512
+        },
+        founder: {
+          "@type": "Person",
+          "@id": `https://${config.domainName}/#person-ernesto-lee`,
+          name: "Dr. Ernesto Lee",
+          jobTitle: "Educational AI Researcher",
+          description: "Leading expert in productive struggle methodology and AI-enhanced education",
+          url: `https://${config.domainName}/about-author`
+        },
+        sameAs: [
+          "https://twitter.com/learningscience_io",
+          "https://linkedin.com/company/learningscience-io"
+        ],
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Educational AI Resources",
+          itemListElement: [
+            {
+              "@type": "Book",
+              "@id": `https://${config.domainName}/#book-productive-struggle`,
+              name: "Productive Struggle: A Research-Based Approach to Teaching and Learning with Artificial Intelligence",
+              author: {
+                "@type": "Person",
+                name: "Dr. Ernesto Lee"
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "LearningScience.io"
+              },
+              bookFormat: "https://schema.org/EBook",
+              genre: "Educational Technology",
+              inLanguage: "en-US",
+              numberOfPages: "300",
+              offers: {
+                "@type": "Offer",
+                price: "34.99",
+                priceCurrency: "USD",
+                availability: "https://schema.org/InStock",
+                seller: {
+                  "@type": "Organization",
+                  name: "LearningScience.io"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": `https://${config.domainName}/#website`,
+        url: `https://${config.domainName}/`,
+        name: config.appName,
+        description: config.appDescription,
+        publisher: {
+          "@id": `https://${config.domainName}/#organization`
+        },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `https://${config.domainName}/search?q={search_term_string}`
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  };
+
+  const schema = customSchema || defaultSchema;
+
   return (
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "http://schema.org",
-          "@type": "SoftwareApplication",
-          name: config.appName,
-          description: config.appDescription,
-          image: `https://${config.domainName}/icon.png`,
-          url: `https://${config.domainName}/`,
-          author: {
-            "@type": "Person",
-            name: "Marc Lou",
-          },
-          datePublished: "2023-08-01",
-          applicationCategory: "EducationalApplication",
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: "4.8",
-            ratingCount: "12",
-          },
-          offers: [
-            {
-              "@type": "Offer",
-              price: "9.00",
-              priceCurrency: "USD",
-            },
-          ],
-        }),
+        __html: JSON.stringify(schema),
       }}
     ></script>
   );

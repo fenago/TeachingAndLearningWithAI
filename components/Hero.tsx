@@ -141,7 +141,7 @@ const Hero = () => {
   }, [backgroundOpacity]);
   
   return (
-    <div id="hero" ref={heroRef} className="relative overflow-hidden min-h-[90vh] flex items-center">
+    <div id="hero" ref={heroRef} className="relative overflow-hidden min-h-[85vh] sm:min-h-[90vh] flex items-center">
       {/* Animated background with responsive mouse movement */}
       <ParticleBackground 
         particleCount={prefersReducedMotion ? 25 : 40} 
@@ -151,15 +151,15 @@ const Hero = () => {
       />
       
       {/* Main hero content */}
-      <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 px-8 py-16 lg:py-24 w-full">
+      <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-12 px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24 w-full">
         {/* Left side - Content with parallax effect */}
         <motion.div 
-          className="flex flex-col gap-8 lg:gap-10 items-center lg:items-start text-center lg:text-left lg:w-1/2"
+          className="flex flex-col gap-6 sm:gap-8 lg:gap-10 items-center lg:items-start text-center lg:text-left lg:w-1/2"
           style={{ y: prefersReducedMotion ? 0 : contentY }}
         >
           {/* Headline with staggered word animation - enhanced for Phase 3 */}
           <motion.h1 
-            className="font-serif font-bold text-4xl lg:text-5xl xl:text-6xl tracking-tight leading-tight"
+            className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl xl:text-6xl tracking-tight leading-tight"
             variants={containerVariants}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
@@ -179,7 +179,7 @@ const Hero = () => {
           
           {/* Subheadline */}
           <motion.p 
-            className="text-lg opacity-90 leading-relaxed max-w-2xl"
+            className="text-base sm:text-lg opacity-90 leading-relaxed max-w-2xl px-2 sm:px-0"
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.5, duration: 0.6 }}
@@ -189,35 +189,39 @@ const Hero = () => {
           
           {/* Author Credibility */}
           <motion.div 
-            className="flex items-center gap-2 text-base font-medium text-primary"
+            className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-sm sm:text-base font-medium text-primary"
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            <span className="text-primary/80">By</span>
-            <span className="font-semibold">Dr. Ernesto Lee</span>
-            <span className="text-primary/80">-</span>
-            <span className="text-primary/80">15+ Years of AI Education Research</span>
+            <div className="flex items-center gap-2">
+              <span className="text-primary/80">By</span>
+              <span className="font-semibold">Dr. Ernesto Lee</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-primary/80 hidden sm:inline">-</span>
+              <span className="text-primary/80">15+ Years of AI Education Research</span>
+            </div>
           </motion.div>
           
           {/* CTA Buttons */}
           <motion.div 
-            className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-2"
+            className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto mt-2"
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.7, duration: 0.6 }}
           >
             {/* Primary CTA - with ripple effect */}
             <motion.button
-              className="btn bg-gradient-to-r from-[#667eea] to-[#764ba2] border-0 text-white btn-lg relative overflow-hidden group"
+              className="btn bg-gradient-to-r from-[#667eea] to-[#764ba2] border-0 text-white btn-md sm:btn-lg relative overflow-hidden group flex-col sm:flex-row gap-1 sm:gap-2 min-h-[3rem] sm:min-h-[3.5rem]"
               variants={primaryBtnVariants}
               initial="rest"
               whileHover="hover"
               whileTap="tap"
               style={{ transformStyle: "preserve-3d" }}
             >
-              Get the Book Now
-              <span className="text-sm font-normal ml-2 opacity-90">Starting at $34.99</span>
+              <span className="text-sm sm:text-base font-semibold">Get the Book Now</span>
+              <span className="text-xs sm:text-sm font-normal opacity-90">Starting at $34.99</span>
               <motion.span 
                 className="absolute inset-0 bg-white rounded-lg"
                 initial={{ scale: 0, opacity: 0 }}
@@ -232,7 +236,7 @@ const Hero = () => {
             
             {/* Secondary CTA - with border animation */}
             <motion.button 
-              className="btn btn-outline btn-lg border-2 border-primary relative overflow-hidden"
+              className="btn btn-outline btn-md sm:btn-lg border-2 border-primary relative overflow-hidden min-h-[3rem] sm:min-h-[3.5rem]"
               variants={outlineBtnVariants}
               initial="rest"
               whileHover="hover"
@@ -240,7 +244,7 @@ const Hero = () => {
               style={{ transformStyle: "preserve-3d" }}
               onClick={() => window.open('https://editor.reedsy.com/s/tIF20dQ', '_blank', 'noopener,noreferrer')}
             >
-              Read Chapter 1 Free
+              <span className="text-sm sm:text-base">Read Chapter 1 Free</span>
               <motion.div 
                 className="absolute inset-0 border-2 border-primary rounded-lg"
                 initial={{ opacity: 0 }}
@@ -273,8 +277,10 @@ const Hero = () => {
                   animate="animate"
                 />
               </div>
-              <span className="font-medium">See Inside the Book</span>
-              <span className="text-sm opacity-75">(preview pages)</span>
+              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                <span className="font-medium text-sm sm:text-base">See Inside the Book</span>
+                <span className="text-xs sm:text-sm opacity-75">(preview pages)</span>
+              </div>
             </motion.button>
           </Link>
           
@@ -282,7 +288,7 @@ const Hero = () => {
           <div ref={counterRef} className="flex flex-col gap-6 w-full mt-2">
             {/* Stats with animated counter - now scroll-triggered */}
             <motion.div 
-              className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-8 text-sm sm:text-base"
+              className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 lg:gap-8 text-xs sm:text-sm lg:text-base"
               initial={{ opacity: 0, y: 20 }}
               animate={(isInView && isCounterInView) ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ delay: 0.5, duration: 0.6 }}

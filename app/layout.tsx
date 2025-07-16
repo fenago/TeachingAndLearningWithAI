@@ -3,7 +3,7 @@ import { Inter, DM_Serif_Display } from "next/font/google";
 import { Viewport } from "next";
 import { getSEOTags } from "@/libs/seo";
 import ClientLayout from "@/components/LayoutClient";
-import Navbar from "@/components/Navbar";
+import CleanAuthHeader from "@/components/CleanAuthHeader";
 import config from "@/config";
 import "./globals.css";
 
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 			<body>
 				{/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
 				<ClientLayout>
-					<Navbar />
+					<CleanAuthHeader />
 					{children}
 				</ClientLayout>
 			</body>
