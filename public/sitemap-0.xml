@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://learningscience.io/robots.txt</loc><lastmod>2025-07-16T15:42:14.538Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/about-author</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/header-test</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/chapter-1-preview</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/modern-header-test</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/apple-icon.png</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/sitemap.xml</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/blog</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/auth-test</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/privacy-policy</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/blog/5-signs-ai-helping-not-replacing-learning</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/tos</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/blog/why-easy-ai-tools-harm-student-learning</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/resources</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://learningscience.io/workshops</loc><lastmod>2025-07-16T15:42:14.539Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/sitemap.xml</loc><lastmod>2025-07-17T14:10:18.738Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/auth-test</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/robots.txt</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/apple-icon.png</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/about-author</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/blog</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/chapter-1-preview</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/header-test</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/privacy-policy</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/tos</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fenago.com/modern-header-test</loc><lastmod>2025-07-17T14:10:18.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

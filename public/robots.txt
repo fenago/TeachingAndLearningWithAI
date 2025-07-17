@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://learningscience.io
+Host: https://fenago.com
 
 # Sitemaps
-Sitemap: https://learningscience.io/sitemap.xml
+Sitemap: https://fenago.com/sitemap.xml

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSession, signOut } from "next-auth/react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -43,7 +43,7 @@ const userMenuItems = [
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
-const CleanAuthHeader = () => {
+const CleanAuthHeaderContent = () => {
   const searchParams = useSearchParams();
   const { data: session, status } = useSession();
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -332,6 +332,14 @@ const CleanAuthHeader = () => {
         )}
       </AnimatePresence>
     </>
+  );
+};
+
+const CleanAuthHeader = () => {
+  return (
+    <Suspense fallback={null}>
+      <CleanAuthHeaderContent />
+    </Suspense>
   );
 };
 

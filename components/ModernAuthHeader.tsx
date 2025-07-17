@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSession, signOut } from "next-auth/react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence, useScroll } from "framer-motion";
@@ -44,7 +44,7 @@ const userMenuItems = [
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
-const ModernAuthHeader = () => {
+const ModernAuthHeaderContent = () => {
   const searchParams = useSearchParams();
   const { data: session, status } = useSession();
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -376,6 +376,14 @@ const ModernAuthHeader = () => {
       {/* Spacer to prevent content overlap */}
       <div className="h-20" />
     </>
+  );
+};
+
+const ModernAuthHeader = () => {
+  return (
+    <Suspense fallback={null}>
+      <ModernAuthHeaderContent />
+    </Suspense>
   );
 };
 
